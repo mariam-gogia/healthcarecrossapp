@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <NoStdLib>false</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.1.0.618606" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="17.2.0.39" />
+    <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="17.2.0.39" />
+    <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="17.2.0.39" />
+    <PackageReference Include="Syncfusion.Xamarin.Compression" Version="17.2.0.39" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Osteoarthritis.xaml.cs">
+      <DependentUpon>Osteoarthritis.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Primary_Hypertension.xaml.cs">
+      <DependentUpon>Primary_Hypertension.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Opioid_Use_Disorder.xaml.cs">
+      <DependentUpon>Opioid_Use_Disorder.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="potoTemplate.png" />
+    <None Remove="data.json" />
+    <None Remove="Guildlines.json" />
+    <None Remove="Guidelines.json" />
+    <None Remove="PatientPhoto.jpg" />
+    <None Remove="PatientPhoto2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="potoTemplate.png" />
+    <EmbeddedResource Include="data.json" />
+    <EmbeddedResource Include="Guidelines.json" />
+    <EmbeddedResource Include="PatientPhoto.jpg" />
+    <EmbeddedResource Include="PatientPhoto2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Xamarin.iOS">
+      <HintPath>..\..\..\..\..\Library\Frameworks\Xamarin.iOS.framework\Versions\12.14.0.110\lib\mono\Xamarin.iOS\Xamarin.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\..\Library\Frameworks\Xamarin.Android.framework\Versions\9.4.0.51\lib\xamarin.android\xbuild-frameworks\MonoAndroid\v9.0\Mono.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

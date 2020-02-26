@@ -1,0 +1,27 @@
+﻿{
+	"patient": {
+		"age": 52,
+		"sex": "F",
+		"givenName": "Mae",
+		"familyName": "Smith"
+	},
+
+	"condition": [{
+			"code": "M19",
+			"displayName": "osteoarthritis",
+			"treatment": [{
+				"drug": "Oxycontin",
+				"dosage": "40 mg",
+				"frequency": "BID"
+			}]
+		},
+		{
+			"code": "V70",
+			"displayName": "primary hypertension"
+		},
+		{
+			"code": "F11",
+			"displayName": "opioid use disorder"
+		}
+	]
+}

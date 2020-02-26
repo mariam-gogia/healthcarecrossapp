@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{D0C15F03-8BDE-4EAC-9F62-91F91C460B5B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.UniversalCarePlan.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7AEBD4AF-D39A-4838-AEB6-2FD5E67336A8" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UniversalCarePlan/Primary_Hypertension.xaml">
+    <Files>
+      <File FileName="UniversalCarePlan/Osteoarthritis.xaml.cs" Line="51" Column="6" />
+      <File FileName="UniversalCarePlan/Plan.xaml.cs" Line="304" Column="1" />
+      <File FileName="UniversalCarePlan/Primary_Hypertension.xaml" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UniversalCarePlan" expanded="True">
+            <Node name="UniversalCarePlan" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="Osteoarthritis.xaml" expanded="True" />
+              <Node name="Plan.xaml" expanded="True" />
+              <Node name="Primary_Hypertension.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="UniversalCarePlan.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="UniversalCarePlan" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.UniversalCarePlan.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.tablet_portrait" />
+</Properties>

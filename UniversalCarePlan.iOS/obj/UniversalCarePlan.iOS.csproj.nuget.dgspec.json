@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan.iOS/UniversalCarePlan.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan.iOS/UniversalCarePlan.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan.iOS/UniversalCarePlan.iOS.csproj",
+        "projectName": "UniversalCarePlan.iOS",
+        "projectPath": "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan.iOS/UniversalCarePlan.iOS.csproj",
+        "packagesPath": "/Users/mg/.nuget/packages/",
+        "outputPath": "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/mg/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan/UniversalCarePlan.csproj": {
+                "projectPath": "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan/UniversalCarePlan.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.581479, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan/UniversalCarePlan.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan/UniversalCarePlan.csproj",
+        "projectName": "UniversalCarePlan",
+        "projectPath": "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan/UniversalCarePlan.csproj",
+        "packagesPath": "/Users/mg/.nuget/packages/",
+        "outputPath": "/Users/mg/Projects/UniversalCarePlan/UniversalCarePlan/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mg/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Syncfusion.Xamarin.Compression": {
+              "target": "Package",
+              "version": "[17.2.0.39, )"
+            },
+            "Syncfusion.Xamarin.SfAutoComplete": {
+              "target": "Package",
+              "version": "[17.2.0.39, )"
+            },
+            "Syncfusion.Xamarin.SfDataGrid": {
+              "target": "Package",
+              "version": "[17.2.0.39, )"
+            },
+            "Syncfusion.Xamarin.SfPdfViewer": {
+              "target": "Package",
+              "version": "[17.2.0.39, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.618606, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

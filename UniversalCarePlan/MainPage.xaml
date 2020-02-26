@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" x:Class="UniversalCarePlan.MainPage"
+             Title="Patient Info">
+                 
+   <Grid x:Name="mainGrid" BackgroundColor="AliceBlue">
+      <Grid.RowDefinitions>
+         <RowDefinition Height="270" />
+         <RowDefinition Height="Auto" />
+         <RowDefinition Height="Auto" />
+         <RowDefinition Height="Auto" />
+         <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+         <ColumnDefinition Width="*" />
+         <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+
+      <Image Grid.Row="0" Grid.Column="0" Margin="5,8,5,5">
+         <Image.Source>
+            <OnPlatform x:TypeArguments="FileImageSource" iOS="PatientPhoto2.jpeg" Android="PatientPhoto2.jpeg" />
+         </Image.Source>
+      </Image>
+
+      <StackLayout Grid.Row="0" Grid.Column="1" x:Name="PatientInfoStack" Margin="0,18,30,5"></StackLayout>
+
+      <BoxView Color="White" Grid.Row="2" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" HeightRequest="3"></BoxView>
+
+      <Label Text="  CONDITIONS:" FontFamily="Montserrat" Grid.Row="3" Grid.Column="0" FontSize="26" FontAttributes="Bold" />
+      <Label Text="COMPLETED" Grid.Row="3" Grid.Column="1" FontSize="26" FontAttributes="Bold" TextColor="Green" VerticalOptions="Center" HorizontalOptions="Center" />
+
+      <ScrollView Grid.Row="4" Grid.ColumnSpan="2">
+         <Grid x:Name="conditionsGrid" RowSpacing="1"></Grid>
+
+      </ScrollView>
+      <StackLayout x:Name="carePlanStack" Grid.Row="8" Grid.ColumnSpan="2" />
+   </Grid>
+</ContentPage>
