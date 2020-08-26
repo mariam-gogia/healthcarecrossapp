@@ -35,4 +35,4 @@ Care plan page displays the patient information and chosen recommendations/treat
 
 **Framework**
 
-The project is written in Visual Studio, using Xamarin.Forms, C# and XAML files.
+The project is written in Visual Studio, using Xamarin.Forms, C# and XML files.
